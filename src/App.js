@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+function SlimeBelief() {
+  return(
+    <button>Push Me For Slime Belief</button>
+  );
+}
 function App() {
   return (
     <div className="App">
@@ -18,6 +22,7 @@ function App() {
           FOR MI449
         </a>
       </header>
+      <SlimeBelief />
     </div>
   );
 }
